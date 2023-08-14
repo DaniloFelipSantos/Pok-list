@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listagem de Pokémons</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/img/logo.png" alt="Logo Pokémon">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um pokémon</h1>
+        <div class="container">
+          <ul class="lista-de-personagens">
+
+            <div class="bone">
+              <li class="personagem selecionado" id="bulbasaur" data-name="bulbasaur" data-description="É um Pokémon tipo duplo Planta/Veneno introduzido na Geração I. Ele é um dos três Pokémon iniciantes da região de Kanto, assim com Charmander e Squirtle. Ele pode ser escolhido pelo jogador em Pokémon Red, Green, e Blue assim como em Pokémon FireRed e LeafGreen, seus remakes.">
+                  <img src=".//src/img/bulbasaur.png" alt="Pokémon bulbasaur"/>
+              </li>
+              <li class="personagem" id="charmander" data-name="charmander" data-description="Ele Pertence ao trio inicial da primeira geração, junto com Squirtle e Bulbasaur. É bastante conhecido, pois além de fazer parte da tríade clássica, ele e suas duas evoluções fizeram um grande sucesso no anime, principalmente a última, que causou diversos adversários lendários ao longo da série.">
+                  <img src="./src/img/Charmander.png" alt="Pokémon charmander"/>
+              </li>
+              <li class="personagem" id="chikorita" data-name="chikorita" data-description="É um pequeno Pokémon quadrúpede verde-claro com botões verde-escuros em volta do pescoço. No topo da cabeça há uma grande folha verde que geralmente é mais longa que o corpo. Um aroma calmante emana da folha, que pode acalmar os Pokémon em batalha.">
+                <img src="./src/img/Chikorita.png" alt="Pokémon Chikorita"/>
+              </li>
+              <li class="personagem" id="chimchar" data-name="chimchar" data-description="É um Pokémon bípedesemelhante a um chimpanzé. Sua pele é principalmente um tom de laranja, embora seu rosto, orelhas externas, barriga, mãos e pés sejam amarelo claro. Suas orelhas são grandes em comparação com a cabeça e tem interior vermelho.">
+                <img src="./src/img/Chimchar.png" alt="Pokémon chimchar"/>
+              </li>
+            </div>
+
+            <div class="bthwo">
+              <li class="personagem" id="oshawott" data-name="oshawott" data-description="É um Pokémon bípede parecido com uma lontra marinha . Os olhos de Oshawott são escuros e seu nariz laranja escuro tem a forma de um oval horizontal. Várias sardas cobrem suas bochechas, que podem ser bigodes prematuros, e dois dentes pontiagudos podem ser vistos quando ele abre a boca.">
+                <img src="./src/img/Oshawott.png" alt="Pokémon oshawott" />
+              </li>
+
+              <li class="personagem" id="cyndaquil" data-name="cyndaquil" data-description="É um Pokémon de tipo fogo. Ele evolui para Quilava quando chega no nível 14 e depois para Typholosion quando chega ao nível 36. Junto de Chikorita e Totodile, Cyndaquil é um dos três iniciais da região de Johto.">
+                <img src="./src/img/Cyndaquil.png" alt="Pokémon cyndaquil" />
+              </li>
+
+              <li class="personagem" id="mudkip" data-name="mudkip" data-description="É um Pokémon tipo Água. Ele evolui para Marshtomp quando chega no nivel 16 e depois para Swampert quando chega no nivel 36. Junto de Treecko e Torchic , Mudkip é um dos três Pokémons iniciais da Região de Hoenn. Mudkip é um pequeno anfíbio Pokémon.">
+                  <img src="./src/img/Mudkip.png" alt="Pokémon Mubdik"/>
+              </li>
+
+              <li class="personagem" id="snivy" data-name="snivy" data-description="É um Pokémon do tipo Grama de propriedade de Ash Ketchum . Ela é o quarto Pokémon que Ash obteve em Unova e também um dos três iniciais de Unova.">
+                <img src="./src/img/Snivy.png" alt="Pokémon snivy" />
+              </li>
+            </div>
+
+            </div>
+          </ul>
+       </div>
+      </section>
+      <section class="personagem-selecionado">
+        <img class="personagem-grande" src="./src/img/bulbasaurFinal.png" alt="Personagem Selecionado"/>
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Bulbasaur</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            É um Pokémon tipo duplo Planta/Veneno introduzido na Geração I. Ele evolui para Ivysaur começando no nível 16, que evolui para Venusaur começando no nível 32. Ele é um dos três Pokémon iniciantes da região de Kanto, assim com Charmander e Squirtle. Ele pode ser escolhido pelo jogador em Pokémon Red, Green, e Blue assim como em Pokémon FireRed e LeafGreen, seus remakes.
+          </p>
+        </div>
+
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
